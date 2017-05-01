@@ -1,0 +1,66 @@
+% Example Lab Map - 2014
+% file containing map information
+% formatting:
+% wall x1 y1 x2 y2
+%   order does not matter between the points
+% line x1 y1 x2 y2
+% beacon x y [r g b] id_tag
+%   [r g b] is the red-green-blue color vector
+% virtwall x y theta
+%   virtual walls emit from a location, not like real walls
+%   theta is the angle relative to the positive x-axis
+%
+% walls
+%
+wall 2.750 1.500 2.750 -1.400
+wall 2.750 -1.400 -2.650 -1.400
+wall -2.650 -1.400 -2.650 1.500
+wall -2.650 1.500 2.750 1.500
+wall 1.650 1.500 1.650 0.700
+wall 2.750 -0.250 1.550 -0.250
+wall 0.150 -1.400 0.150 0.150
+wall 0.600 0.150 -0.250 0.150
+wall -1.150 1.500 -1.150 0.700
+%
+% optional walls
+%
+wall -2.650 -0.250 -1.150 -0.250
+line -1.150 0.700 -1.150 -0.250
+line -1.650 -0.250 -1.650 -1.400
+%
+% waypoints
+%
+line 1.790 0.040 1.790 0.240
+line 1.790 0.240 1.990 0.240
+line 1.990 0.240 1.990 0.040
+line 1.990 0.040 1.790 0.040
+line 0.890 -1.180 0.890 -0.980
+line 0.890 -0.980 1.090 -0.980
+line 1.090 -0.980 1.090 -1.180
+line 1.090 -1.180 0.890 -1.180
+line 2.250 -1.120 2.250 -0.920
+line 2.250 -0.920 2.450 -0.920
+line 2.450 -0.920 2.450 -1.120
+line 2.450 -1.120 2.250 -1.120
+%
+% ec waypoints
+%
+line -1.800 1.000 -1.600 1.200
+line -1.800 1.200 -1.600 1.000
+line -2.400 0.100 -2.200 0.300
+line -2.400 0.300 -2.200 0.100
+line -2.350 -1.110 -2.150 -0.910
+line -2.350 -0.910 -2.150 -1.110
+line 2.380 1.140 2.580 1.340
+line 2.380 1.340 2.580 1.140
+%
+% beacons
+%
+beacon 2.710 -0.850 [0.0 0.0 0.0] 14
+beacon 0.620 0.150 [0.0 0.0 0.0] 15
+beacon 1.600 0.760 [0.0 0.0 0.0] 9
+beacon 2.710 0.620 [0.0 0.0 0.0] 7
+beacon -1.100 1.000 [0.0 0.0 0.0] 8
+beacon -2.610 0.690 [0.0 0.0 0.0] 4
+beacon -2.610 -0.920 [0.0 0.0 0.0] 2
+beacon -0.600 -1.350 [0.0 0.0 0.0] 6
